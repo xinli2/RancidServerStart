@@ -1,0 +1,104 @@
+@charset "UTF-8";
+<!--Xin Li-->
+/* TODO: Add any and all needed styles here */
+
+
+body {
+	background-image: url("images/moviebg.png");
+}
+
+.headline {
+	background-image:url("images/rancidbannerbg.png");
+}
+
+.head {
+	font-weight: bold;
+	font-size: 1.8em;
+	color: black;
+	text-shadow:2px 2px grey;
+	text-align: center;
+}
+
+.right{
+	width: 250px;
+	font-size: 0.8em;
+	float: right; 
+}
+
+
+
+.container {
+	width: 950px;
+	height: 100%;
+	background-color: lightgrey;
+	border-radius: 12px;
+	margin: auto;
+	box-shadow: 5px 5px grey;
+	overflow:hidden;
+	position:relative;
+	font-size: 0.9em;
+}
+
+.image {
+	float: right;
+	background-color: darkseagreen;
+	height: 100%;
+	position: absolute;
+}
+
+
+.partialhead {
+	position: relative;
+	color: red;
+	width: 700px;
+	height: 80px;
+	background-image:url("images/rottenlargebg.png");
+	font-size: 50pt;
+	font-weight: bold;
+	float:left;
+}
+
+span {
+	position: absolute;
+	top: 5%;
+}
+
+.left {
+	width: 700px;
+	height: 920px;
+	float: left; 
+}
+
+.author {
+	margin: 10px;
+	padding-bottom: 20px;
+}
+
+.author img {
+	width: 12%;
+	height: 50%;
+	vertical-align: middle;
+	float: left;
+}
+
+.review {
+	margin: 10px; 
+	padding: 10px;
+	background-color: white;
+	border: 1px solid lightgray;
+	border-radius: 25px;
+}
+
+.review img {
+	width: 10%;
+	height: 10%;
+	vertical-align: middle;
+	float: left;
+}
+
+.grid {
+	width: 50%;
+	float: left;
+}
+
+
